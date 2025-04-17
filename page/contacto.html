@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Gano Excel</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!--<img src="/assets/img/logo_ganoexcel.png" alt="Gano Excel Logo" class="logo">-->
+            <h1>Gano Excel</h1>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+                <ul class="nav-menu">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/page/productos.html">Nuestros Cafés</a></li>
+                    <li><a href="/page/ganoderma.html">Ganoderma</a></li>
+                    <li><a href="/page/oportunidad.html">Oportunidad</a></li>
+                    <li><a href="/page/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <h1>Hablemos</h1>
+        <p>¿Tienes preguntas sobre nuestros cafés con Ganoderma o la oportunidad de negocio? ¡Envíanos un mensaje directo a WhatsApp!</p>
+
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Envíanos tus Datos por WhatsApp</h2>
+                <form id="whatsapp-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono (Opcional, para devolver llamada):</label>
+                    <input type="tel" id="telefono" name="telefono">
+
+                    <label for="asunto">Estoy interesado/a en:</label>
+                    <select id="asunto" name="asunto">
+                        <option value="Consulta de Producto">Consulta de Producto</option>
+                        <option value="Oportunidad de Negocio" id="form-oportunidad">Oportunidad de Negocio</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                    <button type="button" id="send-whatsapp" class="btn btn-primary">Enviar por WhatsApp</button>
+                     <p style="font-size: 0.8em; margin-top: 10px;">*Al hacer clic, se abrirá WhatsApp con un mensaje pre-escrito. Deberás presionar 'Enviar' en WhatsApp.</p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Otros Medios</h2>
+                 <p>Si prefieres, puedes contactarnos por:</p>
+                <p>📧 <a href="mailto:ribhellyrios@gmail.com">ribhellyrios@gmail.com</a></p>
+                <h3>Síguenos:</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="images/icon-facebook.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/icon-instagram.png" alt="Instagram"></a>
+       
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Ribhelly / Gano Excel Distribuidor Independiente.</p>
+        </div>
+    </footer>
+
+    <script src="/js/contacto.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
