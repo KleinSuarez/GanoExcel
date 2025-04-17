@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (whatsappButton && form) {
         whatsappButton.addEventListener('click', function() {
-            const numeroWhatsapp = '+573012830681';
+            const numeroWhatsapp = '+573126148215';
 
             const nombre = document.getElementById('nombre').value.trim();
             const email = document.getElementById('email').value.trim();
