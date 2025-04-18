@@ -456,3 +456,39 @@ footer {
         font-size: 2.2rem;
     }
 }
+
+
+.lista-beneficios {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5rem; 
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem; 
+}
+
+.lista-beneficios li {
+    display: flex; 
+    align-items: center;
+    gap: 15px; 
+    font-size: 1rem; 
+}
+
+.lista-beneficios li img {
+    height: 30px;
+    width: 30px;
+    flex-shrink: 0; 
+}
+
+@media (min-width: 768px) {
+    .lista-beneficios {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem 2rem; 
+    }
+}
+
+@media (min-width: 992px) {
+    .lista-beneficios {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
